@@ -23,20 +23,6 @@
         <?php echo $this->BcAdminForm->error('bc_seo_ai_assist_api_key') ?>
       </td>
     </tr>
-    <tr>
-      <th class="col-head bca-form-table__label">
-        注意事項
-      </th>
-      <td class="col-input bca-form-table__input">
-        <div class="bca-alert" data-bca-alert-type="warning">
-          <p>
-            <strong>外部サービスへのデータ送信について</strong><br>
-            本プラグインは、記事本文・キーワード・タイトルをOpenAI APIに送信します。<br>
-            機密情報や個人情報を含む記事での使用には十分ご注意ください。
-          </p>
-        </div>
-      </td>
-    </tr>
   </table>
 </div>
 
